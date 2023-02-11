@@ -1,0 +1,73 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+body{
+	position: relative;
+	background: linear-gradient(90deg, #47269b  50%, #0c071b  100%) no-repeat center fixed;
+	background-size: cover;
+	color: #FFFFFF;
+  }
+h2{
+	font-size: 40px;
+}
+table{
+	letter-spacing: 1.2px;
+}
+td{
+	text-align: center;
+}
+.container{
+	background-color: #9258f4;
+	border-top-right-radius: 50px;
+	
+}
+button{
+	appearance: none;
+	background-color: rgba(119,72,229,255);
+	border: 2px solid rgba(253,253,252,255);
+	border-radius: 15px;
+	box-sizing: border-box;
+	color: #FFFFFF;
+	cursor: pointer;
+	display: inline-block;
+	line-height: normal;
+	margin: 0;
+	min-width: 0;
+	outline: none;
+	text-align: center;
+	text-decoration: none;
+	transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+	touch-action: manipulation;
+	will-change: transform;
+	background-image: linear-gradient(45deg, #4e37cc  51%, #43269a  100%);
+  }
+  
+  button:disabled {
+	pointer-events: none;
+  }
+
+  
+  button:active {
+	box-shadow: none;
+	transform: translateY(0);
+  }
+  button:hover{
+	  
+		  --_p: 0px;
+		  outline-color: var(--color);
+		  outline-offset: .05em;
+		  color: #f98ffe;
+		  border: #81d4fa;
+		  background-image: linear-gradient(50deg, #43269a  51%, #4e37cc  100%);
+		  transition: 0.5s;
+	}
+  
+  
+@media only screen and (orientation: portrait){
+	*{
+		letter-spacing: 1px;
+	}
+}
